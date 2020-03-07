@@ -10,9 +10,9 @@ def reverse_each_word(sentence)
   
   result = []
   
-  sentence.split(' ').each do |word|
-    result << word.reverse
-  end
+  # sentence.split(' ').each do |word|
+  #   result << word.reverse
+  # end
  
   result.join(' ').squeeze(' ')
 end

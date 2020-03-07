@@ -13,6 +13,8 @@ def reverse_each_word(sentence)
   sentence.split(' ').each do |word|
     result << word.reverse
   end
+  
+  final = ""
  
   result.join(' ')
   p result

@@ -8,13 +8,13 @@ def reverse_each_word(sentence)
   # new.each
   # sentence.reverse_each_wo
   
-  result = []
+  # result = []
   
   sentence.split(' ').each do |word|
-    result << word.reverse
+    reverse_word = word.reverse
   end
-  puts result
-  result.join(' ')
+  puts reverse_word
+  reverse_word.join(' ')
   
   
 end

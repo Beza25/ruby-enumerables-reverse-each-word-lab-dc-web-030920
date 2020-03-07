@@ -16,7 +16,7 @@ def reverse_each_word(sentence)
  
   result.join(' ')
   p result[0]
-   p []
+   result[0]
   
   
 end

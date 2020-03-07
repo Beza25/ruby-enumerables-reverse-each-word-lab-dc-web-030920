@@ -13,16 +13,7 @@ def reverse_each_word(sentence)
   sentence.split(' ').each do |word|
     result << word.reverse
   end
-  
-  final = ""
-  
-  result.each do |word|
-    final.concat
  
-  result.join(' ')
-  p result
-   result
-  
-  
+  result.join(' ').squeeze(' ')
 end
 

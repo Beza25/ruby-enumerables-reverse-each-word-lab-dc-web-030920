@@ -15,6 +15,9 @@ def reverse_each_word(sentence)
   end
   
   final = ""
+  
+  result.each do |word|
+    final.concat
  
   result.join(' ')
   p result

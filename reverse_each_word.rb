@@ -14,6 +14,6 @@ def reverse_each_word(sentence)
     result << word.reverse
   end
  
-  result.join(' ').squeeze(' ')
+  pp result.join(' ').squeeze(' ')
 end
 

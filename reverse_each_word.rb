@@ -14,8 +14,6 @@ def reverse_each_word(sentence)
   #   result << word.reverse
   # end
   
-  sentence.split(' ').collect{ |word| word.reverse }
- 
-  result.join(' ').squeeze(' ')
+  sentence.split(' ').collect{ |word| word.reverse }.join(' ').squeeze(' ')
 end
 
